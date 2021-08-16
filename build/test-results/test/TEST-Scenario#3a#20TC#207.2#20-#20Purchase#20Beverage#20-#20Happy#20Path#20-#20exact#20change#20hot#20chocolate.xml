@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: TC 7.2 - Purchase Beverage - Happy Path - exact change hot chocolate" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-08-16T01:30:38" hostname="MarcoITSE" time="0.006">
+  <properties/>
+  <testcase name="Given a default recipe book" classname="Scenario: TC 7.2 - Purchase Beverage - Happy Path - exact change hot chocolate" time="0.0"/>
+  <testcase name="And the coffee maker is in waiting state" classname="Scenario: TC 7.2 - Purchase Beverage - Happy Path - exact change hot chocolate" time="0.0"/>
+  <testcase name="And the user has selected purchase coffee" classname="Scenario: TC 7.2 - Purchase Beverage - Happy Path - exact change hot chocolate" time="0.0"/>
+  <testcase name="And the user has provided exact payment &quot;100&quot;" classname="Scenario: TC 7.2 - Purchase Beverage - Happy Path - exact change hot chocolate" time="0.0"/>
+  <testcase name="When the user has chosen to purchase valid recipe number &quot;3&quot;" classname="Scenario: TC 7.2 - Purchase Beverage - Happy Path - exact change hot chocolate" time="0.0"/>
+  <testcase name="Then the inventory should have been decremented appropriately &quot;3&quot;" classname="Scenario: TC 7.2 - Purchase Beverage - Happy Path - exact change hot chocolate" time="0.0"/>
+  <testcase name="And there should be no change provided &quot;0&quot;" classname="Scenario: TC 7.2 - Purchase Beverage - Happy Path - exact change hot chocolate" time="0.0"/>
+  <testcase name="And the current status of the coffee maker is &quot;OK&quot;" classname="Scenario: TC 7.2 - Purchase Beverage - Happy Path - exact change hot chocolate" time="0.001"/>
+  <testcase name="And the current mode of the coffee maker is &quot;WAITING&quot;" classname="Scenario: TC 7.2 - Purchase Beverage - Happy Path - exact change hot chocolate" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: TC 7.2 - Purchase Beverage - Happy Path - exact change hot chocolate" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

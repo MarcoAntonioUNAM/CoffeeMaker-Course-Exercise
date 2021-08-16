@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="coffee" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-16T01:30:38" hostname="MarcoITSE" time="0.001">
+  <properties/>
+  <testcase name="Scenario: Set Inventory - TC 5.21 Set Inventory - Error path, user select recipe for which there arent enough ingredients " classname="coffee" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

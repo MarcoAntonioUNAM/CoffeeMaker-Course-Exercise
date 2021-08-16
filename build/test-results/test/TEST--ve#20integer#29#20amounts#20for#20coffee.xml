@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="-ve integer) amounts for coffee" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-16T01:30:38" hostname="MarcoITSE" time="0.0">
+  <properties/>
+  <testcase name="When the user enters &quot;-1&quot; for the amount of coffee the inventory is not updated(Scenario: Set Inventory - TC 5.17 Set Inventory - Error path, user enters invalid " classname="-ve integer) amounts for coffee" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="owed change)" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-08-16T01:30:38" hostname="MarcoITSE" time="0.005">
+  <properties/>
+  <testcase name="Given a default recipe book(Scenario: TC 7.3 - Purchase Beverage - Happy Path - pays more than the cost " classname="owed change)" time="0.0"/>
+  <testcase name="And the coffee maker is in waiting state(Scenario: TC 7.3 - Purchase Beverage - Happy Path - pays more than the cost " classname="owed change)" time="0.0"/>
+  <testcase name="And the user has selected purchase coffee(Scenario: TC 7.3 - Purchase Beverage - Happy Path - pays more than the cost " classname="owed change)" time="0.0"/>
+  <testcase name="And the user pays more than the cost of the beverage &quot;60&quot;(Scenario: TC 7.3 - Purchase Beverage - Happy Path - pays more than the cost " classname="owed change)" time="0.0"/>
+  <testcase name="When the user has chosen to purchase valid recipe number &quot;1&quot;(Scenario: TC 7.3 - Purchase Beverage - Happy Path - pays more than the cost " classname="owed change)" time="0.0"/>
+  <testcase name="Then the inventory should have been decremented appropriately &quot;1&quot;(Scenario: TC 7.3 - Purchase Beverage - Happy Path - pays more than the cost " classname="owed change)" time="0.0"/>
+  <testcase name="And there should be change provided &quot;10&quot;(Scenario: TC 7.3 - Purchase Beverage - Happy Path - pays more than the cost " classname="owed change)" time="0.0"/>
+  <testcase name="And the current status of the coffee maker is &quot;OK&quot;(Scenario: TC 7.3 - Purchase Beverage - Happy Path - pays more than the cost " classname="owed change)" time="0.0"/>
+  <testcase name="And the current mode of the coffee maker is &quot;WAITING&quot;(Scenario: TC 7.3 - Purchase Beverage - Happy Path - pays more than the cost " classname="owed change)" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

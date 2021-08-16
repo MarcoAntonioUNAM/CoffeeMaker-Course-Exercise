@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: TC 4.7 - Edit a Recipe, error path - recipe number that is empty" tests="5" skipped="0" failures="2" errors="0" timestamp="2021-08-16T01:30:38" hostname="MarcoITSE" time="0.003">
+  <properties/>
+  <testcase name="Given a recipe book with an empty recipe in it (recipe has been deleted)" classname="Scenario: TC 4.7 - Edit a Recipe, error path - recipe number that is empty" time="0.0"/>
+  <testcase name="And the coffee maker is in waiting state" classname="Scenario: TC 4.7 - Edit a Recipe, error path - recipe number that is empty" time="0.0"/>
+  <testcase name="And the user has selected edit a recipe" classname="Scenario: TC 4.7 - Edit a Recipe, error path - recipe number that is empty" time="0.0"/>
+  <testcase name="Then the user cannot edit a recipe if they enter a recipe number that is not valid &quot;1&quot;" classname="Scenario: TC 4.7 - Edit a Recipe, error path - recipe number that is empty" time="0.0">
+    <failure message="java.lang.AssertionError" type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertFalse(Assert.java:64)
+	at org.junit.Assert.assertFalse(Assert.java:74)
+	at edu.ncsu.csc326.coffeemaker.TestSteps.the_user_cannot_edit_a_recipe_if_they_enter_a_recipe_number_that_is_not_valid(TestSteps.java:453)
+	at ✽.Then the user cannot edit a recipe if they enter a recipe number that is not valid &quot;1&quot;(edu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:360)
+</failure>
+  </testcase>
+  <testcase name="classMethod" classname="Scenario: TC 4.7 - Edit a Recipe, error path - recipe number that is empty" time="0.003">
+    <failure message="java.lang.AssertionError" type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertFalse(Assert.java:64)
+	at org.junit.Assert.assertFalse(Assert.java:74)
+	at edu.ncsu.csc326.coffeemaker.TestSteps.the_user_cannot_edit_a_recipe_if_they_enter_a_recipe_number_that_is_not_valid(TestSteps.java:453)
+	at ✽.Then the user cannot edit a recipe if they enter a recipe number that is not valid &quot;1&quot;(edu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:360)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

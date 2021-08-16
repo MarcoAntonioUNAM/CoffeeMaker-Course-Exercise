@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: TC 3.2 - Delete a Recipe, error path - invalid input" tests="7" skipped="1" failures="2" errors="0" timestamp="2021-08-16T01:30:37" hostname="MarcoITSE" time="0.118">
+  <properties/>
+  <testcase name="Given a default recipe book" classname="Scenario: TC 3.2 - Delete a Recipe, error path - invalid input" time="0.0"/>
+  <testcase name="And the coffee maker is in waiting state" classname="Scenario: TC 3.2 - Delete a Recipe, error path - invalid input" time="0.0"/>
+  <testcase name="And the user has selected delete a recipe" classname="Scenario: TC 3.2 - Delete a Recipe, error path - invalid input" time="0.0"/>
+  <testcase name="Then the user cannot delete the recipe if they enter a recipe number that is not valid &quot;0&quot;" classname="Scenario: TC 3.2 - Delete a Recipe, error path - invalid input" time="0.0"/>
+  <testcase name="And the coffee maker transitions into &quot;WAITING&quot; mode" classname="Scenario: TC 3.2 - Delete a Recipe, error path - invalid input" time="0.084">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;[DELETE_RECIPE]&gt; but was:&lt;[WAITING]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[DELETE_RECIPE]&gt; but was:&lt;[WAITING]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at edu.ncsu.csc326.coffeemaker.TestSteps.the_coffee_maker_transitions_into_correct_mode(TestSteps.java:364)
+	at ✽.And the coffee maker transitions into &quot;WAITING&quot; mode(edu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:248)
+</failure>
+  </testcase>
+  <testcase name="And the current status of the coffee maker is &quot;OUT_OF_RANGE&quot;" classname="Scenario: TC 3.2 - Delete a Recipe, error path - invalid input" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="classMethod" classname="Scenario: TC 3.2 - Delete a Recipe, error path - invalid input" time="0.119">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;[DELETE_RECIPE]&gt; but was:&lt;[WAITING]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[DELETE_RECIPE]&gt; but was:&lt;[WAITING]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at edu.ncsu.csc326.coffeemaker.TestSteps.the_coffee_maker_transitions_into_correct_mode(TestSteps.java:364)
+	at ✽.And the coffee maker transitions into &quot;WAITING&quot; mode(edu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:248)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

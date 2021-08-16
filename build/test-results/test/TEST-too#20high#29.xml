@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="too high)" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-08-16T01:30:38" hostname="MarcoITSE" time="0.005">
+  <properties/>
+  <testcase name="Given a default recipe book(Scenario: TC 4.6 - Edit a Recipe, error path - recipe number that doesnt exist " classname="too high)" time="0.0"/>
+  <testcase name="And the coffee maker is in waiting state(Scenario: TC 4.6 - Edit a Recipe, error path - recipe number that doesnt exist " classname="too high)" time="0.0"/>
+  <testcase name="And the user has selected edit a recipe(Scenario: TC 4.6 - Edit a Recipe, error path - recipe number that doesnt exist " classname="too high)" time="0.0"/>
+  <testcase name="Then the user cannot edit a recipe if they enter a recipe number that is not valid &quot;8&quot;(Scenario: TC 4.6 - Edit a Recipe, error path - recipe number that doesnt exist " classname="too high)" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

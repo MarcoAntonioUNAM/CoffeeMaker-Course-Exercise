@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: TC 1.4 - main menu / happy" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-08-16T01:30:37" hostname="MarcoITSE" time="0.054">
+  <properties/>
+  <testcase name="Given a default recipe book" classname="Scenario: TC 1.4 - main menu / happy" time="0.002"/>
+  <testcase name="And the coffee maker is in waiting state" classname="Scenario: TC 1.4 - main menu / happy" time="0.002"/>
+  <testcase name="When the user has selected add inventory" classname="Scenario: TC 1.4 - main menu / happy" time="0.002"/>
+  <testcase name="Then the coffee maker transitions into &quot;ADD_INVENTORY&quot; mode" classname="Scenario: TC 1.4 - main menu / happy" time="0.002"/>
+  <testcase name="And the current status of the coffee maker is &quot;OK&quot;" classname="Scenario: TC 1.4 - main menu / happy" time="0.001"/>
+  <testcase name="classMethod" classname="Scenario: TC 1.4 - main menu / happy" time="0.06"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

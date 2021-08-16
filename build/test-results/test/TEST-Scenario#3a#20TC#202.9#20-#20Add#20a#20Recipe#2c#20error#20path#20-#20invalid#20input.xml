@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: TC 2.9 - Add a Recipe, error path - invalid input" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-08-16T01:30:37" hostname="MarcoITSE" time="0.099">
+  <properties/>
+  <testcase name="Given an empty recipe book" classname="Scenario: TC 2.9 - Add a Recipe, error path - invalid input" time="0.0"/>
+  <testcase name="And the coffee maker is in waiting state" classname="Scenario: TC 2.9 - Add a Recipe, error path - invalid input" time="0.0"/>
+  <testcase name="When the user has selected add a recipe" classname="Scenario: TC 2.9 - Add a Recipe, error path - invalid input" time="0.0"/>
+  <testcase name="Then the user cannot add the recipe if invalid values are entered for the &quot;50&quot;, &quot;2147483650&quot;, &quot;1&quot;, &quot;1&quot;, &quot;0&quot; and &quot;Coffee&quot;" classname="Scenario: TC 2.9 - Add a Recipe, error path - invalid input" time="0.0"/>
+  <testcase name="And the current status of the coffee maker is &quot;OK&quot;" classname="Scenario: TC 2.9 - Add a Recipe, error path - invalid input" time="0.0"/>
+  <testcase name="And the current mode of the coffee maker is &quot;ADD_RECIPE&quot;" classname="Scenario: TC 2.9 - Add a Recipe, error path - invalid input" time="0.001"/>
+  <testcase name="And the list of available recipes does not include &quot;Coffee&quot;" classname="Scenario: TC 2.9 - Add a Recipe, error path - invalid input" time="0.075"/>
+  <testcase name="classMethod" classname="Scenario: TC 2.9 - Add a Recipe, error path - invalid input" time="0.101"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

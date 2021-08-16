@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class edu.ncsu.csc326.coffeemaker.RunCukesTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class edu.ncsu.csc326.coffeemaker.RunCukesTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/edu.ncsu.csc326.coffeemaker.html">edu.ncsu.csc326.coffeemaker</a> &gt; RunCukesTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">0</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">-</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">-</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Money in machine: 50
+using recipes succeeded
+moneyInserted: 50 remainder: 0
+Beverage purchased.
+Money in machine: 100
+using recipes succeeded
+moneyInserted: 100 remainder: 0
+Beverage purchased.
+Money in machine: 60
+using recipes succeeded
+moneyInserted: 60 remainder: 10
+Beverage purchased.
+Money in machine: 80
+using recipes failed: 75
+moneyInserted: 80 remainder: 80
+not enough money: 75
+Recipes: 
+1. Coffee
+2. Mocha
+3. Latte
+
+?[31mFailed scenarios:?[0m
+?[31medu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:242 ?[0m# Scenario: TC 3.2 - Delete a Recipe, error path - invalid input
+?[31medu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:251 ?[0m# Scenario: TC 3.3 - Delete a Recipe, error path - invalid input
+?[31medu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:270 ?[0m# Scenario: TC 3.5 - Delete a Recipe, error path - invalid input
+?[31medu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:288 ?[0m# Scenario: TC 4.1 - Edit a Recipe, happy path
+?[31medu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:300 ?[0m# Scenario: TC 4.2 - Edit a Recipe, happy path
+?[31medu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:312 ?[0m# Scenario: TC 4.3 - Edit a Recipe, happy path
+?[31medu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:324 ?[0m# Scenario: TC 4.4 - Edit a Recipe, happy path
+?[31medu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:336 ?[0m# Scenario: TC 4.5 - Edit a Recipe, happy path
+?[31medu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:355 ?[0m# Scenario: TC 4.7 - Edit a Recipe, error path - recipe number that is empty
+?[31medu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:704 ?[0m# Scenario: TC 9.5 - Edit a Recipe, error path
+
+87 Scenarios (?[31m10 failed?[0m, ?[32m77 passed?[0m)
+429 Steps (?[31m10 failed?[0m, ?[36m3 skipped?[0m, ?[32m416 passed?[0m)
+0m0.819s
+
+org.junit.ComparisonFailure: expected:&lt;[DELETE_RECIPE]&gt; but was:&lt;[WAITING]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at edu.ncsu.csc326.coffeemaker.TestSteps.the_coffee_maker_transitions_into_correct_mode(TestSteps.java:364)
+	at ?.And the coffee maker transitions into &quot;WAITING&quot; mode(edu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:248)
+
+org.junit.ComparisonFailure: expected:&lt;[DELETE_RECIPE]&gt; but was:&lt;[WAITING]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at edu.ncsu.csc326.coffeemaker.TestSteps.the_coffee_maker_transitions_into_correct_mode(TestSteps.java:364)
+	at ?.And the coffee maker transitions into &quot;WAITING&quot; mode(edu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:257)
+
+org.junit.ComparisonFailure: expected:&lt;[DELETE_RECIPE]&gt; but was:&lt;[WAITING]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at edu.ncsu.csc326.coffeemaker.TestSteps.the_coffee_maker_transitions_into_correct_mode(TestSteps.java:364)
+	at ?.And the coffee maker transitions into &quot;WAITING&quot; mode(edu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:276)
+
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at edu.ncsu.csc326.coffeemaker.TestSteps.the_price_of_the_recipe_is_updated_appropriately(TestSteps.java:858)
+	at ?.And the price of the &quot;Coffee&quot; recipe is updated appropriately &quot;65&quot;(edu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:298)
+
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertFalse(Assert.java:64)
+	at org.junit.Assert.assertFalse(Assert.java:74)
+	at edu.ncsu.csc326.coffeemaker.TestSteps.the_coffee_amount_of_the_recipe_is_updated_appropriately(TestSteps.java:881)
+	at ?.And the coffee amount of the &quot;Coffee&quot; recipe is updated appropriately &quot;2&quot;(edu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:310)
+
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertFalse(Assert.java:64)
+	at org.junit.Assert.assertFalse(Assert.java:74)
+	at edu.ncsu.csc326.coffeemaker.TestSteps.the_sugar_amount_of_the_recipe_is_updated_appropriately(TestSteps.java:904)
+	at ?.And the sugar amount of the &quot;Coffee&quot; recipe is updated appropriately &quot;2&quot;(edu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:322)
+
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertFalse(Assert.java:64)
+	at org.junit.Assert.assertFalse(Assert.java:74)
+	at edu.ncsu.csc326.coffeemaker.TestSteps.the_milk_amount_of_the_recipe_is_updated_appropriately(TestSteps.java:927)
+	at ?.And the milk amount of the &quot;Coffee&quot; recipe is updated appropriately &quot;2&quot;(edu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:334)
+
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertFalse(Assert.java:64)
+	at org.junit.Assert.assertFalse(Assert.java:74)
+	at edu.ncsu.csc326.coffeemaker.TestSteps.the_chocolate_amount_of_the_recipe_is_updated_appropriately(TestSteps.java:950)
+	at ?.And the chocolate amount of the &quot;Coffee&quot; recipe is updated appropriately &quot;1&quot;(edu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:346)
+
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertFalse(Assert.java:64)
+	at org.junit.Assert.assertFalse(Assert.java:74)
+	at edu.ncsu.csc326.coffeemaker.TestSteps.the_user_cannot_edit_a_recipe_if_they_enter_a_recipe_number_that_is_not_valid(TestSteps.java:453)
+	at ?.Then the user cannot edit a recipe if they enter a recipe number that is not valid &quot;1&quot;(edu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:360)
+
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at edu.ncsu.csc326.coffeemaker.RecipeBook.editRecipe(RecipeBook.java:88)
+	at edu.ncsu.csc326.coffeemaker.TestSteps.the_user_attempts_to_edit_a_recipe_that_doesnt_exist_less_than_zero_it_should_fail(TestSteps.java:1402)
+	at ?.When the user attempts to edit a recipe that doesnt exist - less than zero - it should fail(edu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:707)
+
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.3.1</a> at 15/08/2021 08:30:40 PM</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: TC 2.1 - Add a Recipe - happy path" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-08-16T01:30:37" hostname="MarcoITSE" time="0.034">
+  <properties/>
+  <testcase name="Given an empty recipe book" classname="Scenario: TC 2.1 - Add a Recipe - happy path" time="0.0"/>
+  <testcase name="And the coffee maker is in waiting state" classname="Scenario: TC 2.1 - Add a Recipe - happy path" time="0.001"/>
+  <testcase name="And the user has selected add a recipe" classname="Scenario: TC 2.1 - Add a Recipe - happy path" time="0.001"/>
+  <testcase name="When the user enter valid values for the &quot;50&quot;, &quot;3&quot;, &quot;1&quot;, &quot;1&quot;, &quot;0&quot; and &quot;Coffee&quot;" classname="Scenario: TC 2.1 - Add a Recipe - happy path" time="0.002"/>
+  <testcase name="Then the recipe is added to the coffee maker" classname="Scenario: TC 2.1 - Add a Recipe - happy path" time="0.008"/>
+  <testcase name="And the list of available recipes now includes &quot;Coffee&quot;" classname="Scenario: TC 2.1 - Add a Recipe - happy path" time="0.001"/>
+  <testcase name="And the current status of the coffee maker is &quot;OK&quot;" classname="Scenario: TC 2.1 - Add a Recipe - happy path" time="0.001"/>
+  <testcase name="And the current mode of the coffee maker is &quot;WAITING&quot;" classname="Scenario: TC 2.1 - Add a Recipe - happy path" time="0.005"/>
+  <testcase name="classMethod" classname="Scenario: TC 2.1 - Add a Recipe - happy path" time="0.036"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

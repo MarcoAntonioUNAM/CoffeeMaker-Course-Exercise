@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: TC 3.4 - Delete a Recipe, error path - invalid input" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-08-16T01:30:38" hostname="MarcoITSE" time="0.011">
+  <properties/>
+  <testcase name="Given a default recipe book" classname="Scenario: TC 3.4 - Delete a Recipe, error path - invalid input" time="0.0"/>
+  <testcase name="And the coffee maker is in waiting state" classname="Scenario: TC 3.4 - Delete a Recipe, error path - invalid input" time="0.0"/>
+  <testcase name="And the user has selected delete a recipe" classname="Scenario: TC 3.4 - Delete a Recipe, error path - invalid input" time="0.002"/>
+  <testcase name="Then the user cannot delete the recipe if they enter a recipe number that is not valid &quot;a&quot;" classname="Scenario: TC 3.4 - Delete a Recipe, error path - invalid input" time="0.0"/>
+  <testcase name="And the coffee maker transitions into &quot;DELETE_RECIPE&quot; mode" classname="Scenario: TC 3.4 - Delete a Recipe, error path - invalid input" time="0.003"/>
+  <testcase name="And the current status of the coffee maker is &quot;OK&quot;" classname="Scenario: TC 3.4 - Delete a Recipe, error path - invalid input" time="0.001"/>
+  <testcase name="classMethod" classname="Scenario: TC 3.4 - Delete a Recipe, error path - invalid input" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

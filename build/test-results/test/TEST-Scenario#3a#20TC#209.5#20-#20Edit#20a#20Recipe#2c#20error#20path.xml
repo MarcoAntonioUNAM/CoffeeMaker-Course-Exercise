@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: TC 9.5 - Edit a Recipe, error path" tests="3" skipped="0" failures="2" errors="0" timestamp="2021-08-16T01:30:38" hostname="MarcoITSE" time="0.005">
+  <properties/>
+  <testcase name="Given a default recipe book" classname="Scenario: TC 9.5 - Edit a Recipe, error path" time="0.0"/>
+  <testcase name="When the user attempts to edit a recipe that doesnt exist - less than zero - it should fail" classname="Scenario: TC 9.5 - Edit a Recipe, error path" time="0.002">
+    <failure message="java.lang.ArrayIndexOutOfBoundsException: -1" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: -1
+	at edu.ncsu.csc326.coffeemaker.RecipeBook.editRecipe(RecipeBook.java:88)
+	at edu.ncsu.csc326.coffeemaker.TestSteps.the_user_attempts_to_edit_a_recipe_that_doesnt_exist_less_than_zero_it_should_fail(TestSteps.java:1402)
+	at ✽.When the user attempts to edit a recipe that doesnt exist - less than zero - it should fail(edu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:707)
+</failure>
+  </testcase>
+  <testcase name="classMethod" classname="Scenario: TC 9.5 - Edit a Recipe, error path" time="0.006">
+    <failure message="java.lang.ArrayIndexOutOfBoundsException: -1" type="java.lang.ArrayIndexOutOfBoundsException">java.lang.ArrayIndexOutOfBoundsException: -1
+	at edu.ncsu.csc326.coffeemaker.RecipeBook.editRecipe(RecipeBook.java:88)
+	at edu.ncsu.csc326.coffeemaker.TestSteps.the_user_attempts_to_edit_a_recipe_that_doesnt_exist_less_than_zero_it_should_fail(TestSteps.java:1402)
+	at ✽.When the user attempts to edit a recipe that doesnt exist - less than zero - it should fail(edu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:707)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

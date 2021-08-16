@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: TC 8.8 - Create a Recipe - Happy Path - Recipe Equals" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-08-16T01:30:38" hostname="MarcoITSE" time="0.001">
+  <properties/>
+  <testcase name="When two recipes that are the same are compared using the equals method, it should be successful" classname="Scenario: TC 8.8 - Create a Recipe - Happy Path - Recipe Equals" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: TC 8.8 - Create a Recipe - Happy Path - Recipe Equals" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

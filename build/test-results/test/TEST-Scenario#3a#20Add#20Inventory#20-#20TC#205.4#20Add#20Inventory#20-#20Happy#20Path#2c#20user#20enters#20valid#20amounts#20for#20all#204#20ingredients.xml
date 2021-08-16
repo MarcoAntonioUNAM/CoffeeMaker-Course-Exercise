@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Add Inventory - TC 5.4 Add Inventory - Happy Path, user enters valid amounts for all 4 ingredients" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-08-16T01:30:38" hostname="MarcoITSE" time="0.018">
+  <properties/>
+  <testcase name="Given an empty recipe book" classname="Scenario: Add Inventory - TC 5.4 Add Inventory - Happy Path, user enters valid amounts for all 4 ingredients" time="0.0"/>
+  <testcase name="And the coffee maker is in waiting state" classname="Scenario: Add Inventory - TC 5.4 Add Inventory - Happy Path, user enters valid amounts for all 4 ingredients" time="0.01"/>
+  <testcase name="And the user has selected add inventory" classname="Scenario: Add Inventory - TC 5.4 Add Inventory - Happy Path, user enters valid amounts for all 4 ingredients" time="0.0"/>
+  <testcase name="Then the user can successfully update the inventory if they enter valid amounts for &quot;0&quot;, &quot;0&quot;, &quot;0&quot; and &quot;20&quot;" classname="Scenario: Add Inventory - TC 5.4 Add Inventory - Happy Path, user enters valid amounts for all 4 ingredients" time="0.0"/>
+  <testcase name="And the current status of the coffee maker is &quot;OK&quot;" classname="Scenario: Add Inventory - TC 5.4 Add Inventory - Happy Path, user enters valid amounts for all 4 ingredients" time="0.0"/>
+  <testcase name="And the current mode of the coffee maker is &quot;WAITING&quot;" classname="Scenario: Add Inventory - TC 5.4 Add Inventory - Happy Path, user enters valid amounts for all 4 ingredients" time="0.001"/>
+  <testcase name="And the inventory of &quot;0&quot;, &quot;0&quot;, &quot;0&quot; and &quot;20&quot; has been updated" classname="Scenario: Add Inventory - TC 5.4 Add Inventory - Happy Path, user enters valid amounts for all 4 ingredients" time="0.0"/>
+  <testcase name="classMethod" classname="Scenario: Add Inventory - TC 5.4 Add Inventory - Happy Path, user enters valid amounts for all 4 ingredients" time="0.125"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

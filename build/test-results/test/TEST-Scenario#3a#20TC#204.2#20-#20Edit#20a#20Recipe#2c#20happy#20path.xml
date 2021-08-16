@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: TC 4.2 - Edit a Recipe, happy path" tests="10" skipped="0" failures="2" errors="0" timestamp="2021-08-16T01:30:38" hostname="MarcoITSE" time="0.321">
+  <properties/>
+  <testcase name="Given a default recipe book" classname="Scenario: TC 4.2 - Edit a Recipe, happy path" time="0.0"/>
+  <testcase name="And the coffee maker is in waiting state" classname="Scenario: TC 4.2 - Edit a Recipe, happy path" time="0.0"/>
+  <testcase name="And the user has selected edit a recipe" classname="Scenario: TC 4.2 - Edit a Recipe, happy path" time="0.0"/>
+  <testcase name="And the user elects to edit a valid recipe number &quot;1&quot;" classname="Scenario: TC 4.2 - Edit a Recipe, happy path" time="0.0"/>
+  <testcase name="And the user enters updated and valid values for the &quot;50&quot;, &quot;2&quot;, &quot;1&quot;, &quot;1&quot; and &quot;0&quot;" classname="Scenario: TC 4.2 - Edit a Recipe, happy path" time="0.0"/>
+  <testcase name="Then the recipe is successfully updated" classname="Scenario: TC 4.2 - Edit a Recipe, happy path" time="0.0"/>
+  <testcase name="And the current status of the coffee maker is &quot;OK&quot;" classname="Scenario: TC 4.2 - Edit a Recipe, happy path" time="0.0"/>
+  <testcase name="And the current mode of the coffee maker is &quot;WAITING&quot;" classname="Scenario: TC 4.2 - Edit a Recipe, happy path" time="0.006"/>
+  <testcase name="And the coffee amount of the &quot;Coffee&quot; recipe is updated appropriately &quot;2&quot;" classname="Scenario: TC 4.2 - Edit a Recipe, happy path" time="0.0">
+    <failure message="java.lang.AssertionError" type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertFalse(Assert.java:64)
+	at org.junit.Assert.assertFalse(Assert.java:74)
+	at edu.ncsu.csc326.coffeemaker.TestSteps.the_coffee_amount_of_the_recipe_is_updated_appropriately(TestSteps.java:881)
+	at ✽.And the coffee amount of the &quot;Coffee&quot; recipe is updated appropriately &quot;2&quot;(edu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:310)
+</failure>
+  </testcase>
+  <testcase name="classMethod" classname="Scenario: TC 4.2 - Edit a Recipe, happy path" time="0.327">
+    <failure message="java.lang.AssertionError" type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertFalse(Assert.java:64)
+	at org.junit.Assert.assertFalse(Assert.java:74)
+	at edu.ncsu.csc326.coffeemaker.TestSteps.the_coffee_amount_of_the_recipe_is_updated_appropriately(TestSteps.java:881)
+	at ✽.And the coffee amount of the &quot;Coffee&quot; recipe is updated appropriately &quot;2&quot;(edu/ncsu/csc326/coffeemaker/CoffeeMaker.feature:310)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Add Sugar - TC 5.51 Add Sugar - Error path, user enters invalid (non-integer) amount" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-16T01:30:38" hostname="MarcoITSE" time="0.01">
+  <properties/>
+  <testcase name="classMethod" classname="Scenario: Add Sugar - TC 5.51 Add Sugar - Error path, user enters invalid (non-integer) amount" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
